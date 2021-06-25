@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Conceptos básicos programación orientada a objetos',
     descripcionCurso:
-      'En este componente formativo se abordan los conceptos clave del paradigma orientado a objetos, entre los que se encuentran la abstracción, encapsulamiento, modularidad, jerarquía polimorfismo. Adicionalmente se introducen los conceptos de clases y objetos desde la perspectiva de este paradigma.',
+      'En este componente formativo se abordan los conceptos clave del paradigma orientado a objetos, entre los que se encuentran la abstracción, encapsulamiento, modularidad, jerarquía y polimorfismo. Adicionalmente se introducen los conceptos de clases y objetos desde la perspectiva de este paradigma.',
     imagenBannerPrincipal: require('@/assets/curso/banner-principal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.svg'),
   },
@@ -104,12 +104,12 @@ export default {
   referencias: [
     {
       referencia:
-        'Aguilar, L. J. (1998). Programación orientada a objetos. McGraw Hill Education.',
+        'Aguilar, J. L. (2021). Fundamentos de programación. McGraw Hill Education.',
       link: '',
     },
     {
       referencia:
-        'Aguilar, J. L. (2021). Fundamentos de programación. McGraw Hill Education.',
+        'Aguilar, L. J. (1998). Programación orientada a objetos. McGraw Hill Education.',
       link: '',
     },
     {
@@ -135,9 +135,9 @@ export default {
         'Secuencia de pasos ordenados y finitos que describen un conjunto de acciones para resolver un problema.',
     },
     {
-      termino: 'Suftware',
+      termino: 'Paradigma',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'ejemplo o modelo de algo. En el caso del paradigma orientado a objetos corresponde a un conjunto de características y formas en la que se representa la información.',
     },
   ],
   complementario: [
@@ -148,7 +148,7 @@ export default {
     },
     {
       texto:
-        'Dalto, L. (2019). Programación orientada a objetos explicada en 10 minutos',
+        'Dalto, L. (2019). Programación orientada a objetos explicada en 10 minutos.',
       tipo: 'Video de Youtube',
       link: 'https://youtu.be/uNlB7141umY',
     },
@@ -168,6 +168,35 @@ export default {
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
+      {
+        nombre: 'Jonathan Guerrero Astaiza',
+        cargo: 'Instructor',
+        centro:
+          'Centro de Teleinformática y Producción Industrial Regional Cauca',
+      },
+      {
+        nombre: 'Zulema León Escobar',
+        cargo: 'Instructora',
+        centro:
+          'Centro de Teleinformática y Producción Industrial Regional Cauca',
+      },
+      {
+        nombre: 'Alix Cecilia Chinchilla Rueda',
+        cargo: 'Diseñadora instruccional',
+        centro: 'Centro de Gestión Industrial Regional Distrito Capital',
+      },
+      {
+        nombre: 'Jhon Jairo Rodríguez Pérez',
+        cargo: 'Diseñador y evaluador instruccional',
+        centro:
+          'Centro para la Industria de la Comunicación Gráfica Regional Distrito Capital',
+      },
+      {
+        nombre: 'Jhana Johanna Bustillo Ardila',
+        cargo: 'Revisión de estilo',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
     ],
     desarrolloProducto: [
       {
@@ -182,25 +211,32 @@ export default {
         centro: 'Centro de Comercio y Servicios Regional Tolima',
       },
       {
-        nombre: ['Nombre 1', 'Nombre 2'],
+        nombre: ['Carlos Julián Ramírez Benítez'],
         cargo: 'Diseño web',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Luis Jesús Pérez Madariaga',
         cargo: 'Desarrollo Front-End',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: [
+          'Zuleidy Maria Ruiz Torres',
+          'Wilson Andrés Arenales Caceres',
+          'Gilberto Junior Rodriguez Rodriguez',
+          'Maria Carolina Tamayo',
+          'Jose Jaime Tang',
+          'Oleg Litvin',
+        ],
         cargo: 'Producción audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Jenny Paola Montillo Gélvez',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',

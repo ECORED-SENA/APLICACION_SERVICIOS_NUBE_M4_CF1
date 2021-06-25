@@ -7,7 +7,7 @@
         span 1
       h1 Paradigma orientado a objetos
 
-    p El paradigma orientado a objetos es un concepto que inició en los años 70, pero que se logró estandarizar alrededor de 1997 con la aparición del lenguaje unificado de modelado UML, teniendo presente que la palabra objetos no hace referencia necesariamente a componentes gráficos de un sistema de información (Rumbaugh et al. 2004).
+    p El paradigma orientado a objetos es un concepto que inició en los años 70, pero que se logró estandarizar alrededor de 1997 con la aparición del #[strong Lenguaje Unificado de Modelado UML], teniendo presente que la palabra objetos no hace referencia necesariamente a componentes gráficos de un sistema de información (Rumbaugh et al. 2004).
 
     .row.mt-5.col-10
       .col-md-5
@@ -22,19 +22,19 @@
               ul.lista-ul
                 li 
                   i.fas.fa-check
-                  | Abstracción.
+                  | Abstracción
                 li 
                   i.fas.fa-check
-                  | Encapsulamiento.
+                  | Encapsulamiento
                 li 
                   i.fas.fa-check
-                  | Modularidad.
+                  | Modularidad
                 li 
                   i.fas.fa-check
-                  | Jerarquía.
+                  | Jerarquía
                 li 
                   i.fas.fa-check
-                  | Polimorfismo.
+                  | Polimorfismo
             .col-md-6
               figure.p-3
                 img(src="@/assets/curso/tema1/1.svg")
@@ -57,7 +57,7 @@
     #t_1_2.titulo-segundo.mt-5
       h2 1.2 Encapsulamiento
 
-    p El encapsulamiento es el proceso que permite agrupar datos y también operaciones que relacionan estos datos bajo una misma unidad lógica, en el ejemplo de la figura 1 todos los elementos descritos en conjunto representan una única unidad de información que corresponde a un contacto de la agenda electrónica, por lo cual se debería utilizar el encapsulamiento como lo representa la figura 2, para agrupar todo y no seguir trabajando los datos como elementos independientes y dispersos.
+    p El encapsulamiento es el proceso que permite agrupar datos y también operaciones que relacionan estos datos bajo una misma unidad lógica, en el ejemplo de la introducción, Representación de identificadores en la memoria, todos los elementos descritos en conjunto representan una única unidad de información que corresponde a un contacto de la agenda electrónica, por lo cual se debería utilizar el encapsulamiento como lo representa la figura que se encuentra a continuación, para agrupar todo y no seguir trabajando los datos como elementos independientes y dispersos.
 
     .col-md-8.mt-5.m-auto
       p.mb-3(style="border-left:4px #4DD0E1 solid;padding-left:1rem") El encapsulamiento oculta los detalles de la implementación de un objeto
@@ -113,7 +113,7 @@
           i.fas.fa-check
           | Cada módulo puede ser ejecutado y probado de forma independiente, lo cual facilita la corrección de errores y permite que un problema pueda ser desarrollado por varias personas en forma paralela.
 
-    p.mt-4 #[strong Este concepto se puede comprender de mejor manera, a través del siguiente ejemplo.]
+    p.mt-4 #[strong Este concepto se puede comprender de mejor manera, a través del siguiente ejemplo:]
 
     figure.mt-5
     .video
@@ -146,7 +146,7 @@
       figure
         img(src="@/assets/curso/tema1/5.svg")
 
-    p.mt-5 Dependiendo del nivel de dependencia que existe entre la abstracción que agrupa y las abstracciones que son partes, se definen relaciones de composición o agregación.
+    p.mt-5 Dependiendo del nivel de dependencia que existe entre la abstracción que agrupa y las abstracciones que son partes, se definen relaciones de #[strong composición] o #[strong agregación].
 
     p.mt-3 La representación de las uniones entre las abstracciones de una jerarquía usa símbolos diferentes para diferenciar lo que son jerarquías de clases y jerarquías de objetos. Esto se detalla en el tema de diagrama de clases.
 
@@ -159,19 +159,19 @@
     p.mt-3 En la siguiente figura, se muestra un ejemplo de una jerarquía sobre figuras planas y adicionalmente se indica que hay un comportamiento llamado Calcular Área, es decir, todas las figuras planas pueden calcular su área.
 
     .titulo-quinto.color-acento-contenido.text-center.mt-5
-      h4 Ejemplo de polimorfismo en figuras planas.
+      h4 Ejemplo de polimorfismo en figuras planas
 
     .col-md-9.m-auto.mt-4
       figure
         img(src="@/assets/curso/tema1/6.svg")
 
-    p.mt-5 En la jerarquía de clases del ejemplo anterior las abstracciones rectángulo, círculo y triángulo heredan las características de la abstracción figura plana incluyendo el comportamiento de Calcular Área. Sin embargo, este comportamiento tiene diferentes formas de calcularse dependiendo qué abstracción de la jerarquía es la que la utilice.
+    p.mt-5 En la jerarquía de clases del ejemplo anterior las abstracciones #[strong rectángulo, círculo y triángulo] heredan las características de la #[strong abstracción figura plana] incluyendo el comportamiento de #[strong Calcular Área]. Sin embargo, este comportamiento tiene diferentes formas de calcularse dependiendo qué abstracción de la jerarquía es la que la utilice.
 
     .p-4.mt-4(style="background-color:#F3F9FF")
       ul.lista-ul
         li 
           i.fas.fa-check
-          | Para el caso de la abstracción rectángulo el cálculo de área se obtiene luego de multiplicar el valor de la base y la altura de la figura.
+          | Para el caso de la abstracción rectángulo, el cálculo de área se obtiene luego de multiplicar el valor de la base y la altura de la figura.
         li 
           i.fas.fa-check
           | Para la abstracción círculo se debe multiplicar la constante π (Pi) por el valor del radio al cuadrado.
@@ -181,7 +181,7 @@
 
     .col-md-9.m-auto.mt-5
       .cajon.color-acento-botones.p-4(style="background-color: #FFE7C4;")
-        p #[strong El Polimorfismo] está presente en el comportamiento #[strong Calcular Área]
+        p #[strong El Polimorfismo] está presente en el comportamiento #[strong Calcular Área.]
 
   
 </template>

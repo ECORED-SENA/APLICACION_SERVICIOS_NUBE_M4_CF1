@@ -9,7 +9,9 @@
 
     p Las clases y objetos son el corazón de la programación orientada a objetos y en la construcción de estos elementos se refleja cada una de las características del paradigma orientado a objetos revisado en el apartado anterior. Algunas veces parece que ambos elementos se traslapan y algunas otras veces se suele hablar de forma indiscriminada de estos dos elementos, por lo cual a continuación se ampliará la revisión para comprender sus características y diferencias.
 
-    p.mt-3 Un objeto en el paradigma orientado a objetos representa un objeto del mundo real, el objeto debe ser especializado y solo se encarga de una tarea. Un objeto puede ser:
+    p.mt-3 Un objeto en el paradigma orientado a objetos representa un objeto del mundo real, el objeto debe ser especializado y solo se encarga de una tarea. 
+
+    p.mt-3 Un objeto puede ser:
 
     .p-5.mt-5.col-md-11(style="background-color:#F3F9FF")
       .row
@@ -29,7 +31,10 @@
               | #[strong Interacciones como transacciones o contratos.]
             li 
               i.fas.fa-check
-              | #[strong Incidentes como vuelos, sucesos o accidentes.#[br] Lugares como muelles, carreteras, etc.]
+              | #[strong Incidentes como vuelos, sucesos o accidentes.]
+            li 
+              i.fas.fa-check
+              | #[strong Lugares como muelles, carreteras, etc.]
 
         .col-md-3
           figure.p-3
@@ -42,11 +47,11 @@
 
       .tabla-a.color-secundario
         table
-          caption Nota: Aguilar (1998)
+          caption Nota: Aguilar (1998).
           thead
             tr
-              th Elemento
-              th Descripción
+              th.text-center Elemento
+              th.text-center Descripción
           tbody
             tr
               td Identidad (nombre)
@@ -64,6 +69,7 @@
       p.mb-4(style="border-left:4px #4DD0E1 solid;padding-left:1rem") Clases y objetos ejemplo
       figure
         img(src="@/assets/curso/tema2/2.svg")
+        figcaption Nota. Adaptado de Samuel (2020).
 
     p.mt-5 Una clase es un tipo de dato definido por el usuario, no existe en forma concreta ya que es solo una abstracción. A partir de la definición de una clase se pueden construir objetos. Regresando al ejemplo de la introducción, las clases son equivalentes a los tipos de datos y los objetos son los identificadores que se crean a partir de este tipo particular de dato.
 
@@ -78,9 +84,9 @@
     br
     h5.mt-5 Atributos:
 
-    p.mt-3 los atributos de los objetos que se definen en las clases cuando se describen en lenguaje de modelado formal o en un lenguaje de programación, se estructuran de forma similar a como se definen los identificadores, es decir, cada atributo se expresa con un tipo de dato y nombre del identificador.
+    p.mt-3 Los atributos de los objetos que se definen en las clases cuando se describen en lenguaje de modelado formal o en un lenguaje de programación, se estructuran de forma similar a como se definen los identificadores, es decir, cada atributo se expresa con un tipo de dato y nombre del identificador.
 
-    p.mt-3 Adicionalmente tanto los atributos como los métodos tendrán una especificación, en la que se indica si corresponden a elementos públicos (interfaces visibles) o elementos privados (implementación interna) lo que representa una aplicación de la propiedad del encapsulamiento.
+    p.mt-3 Adicionalmente, tanto los atributos como los métodos tendrán una especificación, en la que se indica si corresponden a elementos públicos (interfaces visibles) o elementos privados (implementación interna) lo que representa una aplicación de la propiedad del encapsulamiento.
 
     .col-md-9.mt-5
       .cajon.color-acento-botones.p-4(style="background-color: #FFE7C4;")
@@ -94,10 +100,10 @@
           | #[strong Lo primero por hacer, es por medio de la abstracción, identificar de la información existente, cuáles son los posibles objetos y las posibles características claves para tener en cuenta al realizar un registro de matrícula y la información esencial relacionada con los estudiantes.]
         li 
           i.fas.fa-check
-          | #[strong Puede ser útil también verificar de estudiantes reales el tipo de información que requiere la institución.] 
+          | #[strong Puede ser útil también, verificar de estudiantes reales el tipo de información que requiere la institución.] 
         li 
           i.fas.fa-check
-          | #[strong Luego de esto se empieza a construir las plantillas (clases) con la estructura de los elementos identificados. Posteriormente estas clases definidas permitirán instanciar objetos que corresponden a la información concreta con la que se manipulará el sistema.]
+          | #[strong Luego de esto, se empieza a construir las plantillas (clases) con la estructura de los elementos identificados. Posteriormente, estas clases definidas, permitirán instanciar objetos que corresponden a la información concreta con la que se manipulará el sistema.]
 
 
 </template>
@@ -124,4 +130,6 @@ export default {
 .tarjeta.color-acento-botones
   background-color: #CDF6FC !important
   border: 1px #039BE5 solid !important
+.tabla-a.color-secundario thead
+  border-color: #039BE5
 </style>
