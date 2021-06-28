@@ -51,7 +51,7 @@
           thead
             tr
               th.text-center Elemento
-              th.text-center Descripción
+              th(style="text-align:left;") Descripción
           tbody
             tr
               td Identidad (nombre)
@@ -82,6 +82,8 @@
 
 
     br
+    br
+    br
     h5.mt-5 Atributos:
 
     p.mt-3 Los atributos de los objetos que se definen en las clases cuando se describen en lenguaje de modelado formal o en un lenguaje de programación, se estructuran de forma similar a como se definen los identificadores, es decir, cada atributo se expresa con un tipo de dato y nombre del identificador.
@@ -93,8 +95,8 @@
         .h5 Revisar el siguiente ejemplo:
         p Supongamos que se debe crear un sistema de información que permita el registro de matrícula de estudiantes en una institución educativa.
 
-    .p-4(style="background-color:#F3F9FF")
-      ul.lista-ul
+    .p-4.mt-1(style="background-color:#F3F9FF")
+      ul.lista-ul.mt-3
         li 
           i.fas.fa-check
           | #[strong Lo primero por hacer, es por medio de la abstracción, identificar de la información existente, cuáles son los posibles objetos y las posibles características claves para tener en cuenta al realizar un registro de matrícula y la información esencial relacionada con los estudiantes.]

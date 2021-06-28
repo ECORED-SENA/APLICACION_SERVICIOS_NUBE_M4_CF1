@@ -43,8 +43,9 @@
 
     p.mt-5(style="border-left:4px #4DD0E1 solid;padding-left:1rem") Representación de identificadores en la memoria
 
-    figure.mt-4
-      img(src="@/assets/curso/introduccion/1.svg")
+    .p-5(style="background-color:#F3F9FF")
+      figure
+        img(src="@/assets/curso/introduccion/1.svg")
 
     p.mt-5 Cada identificador definido es como una caja donde se pueden almacenar datos, cada caja se reconoce fácilmente por medio del nombre del identificador asignado, el tamaño de cada caja puede ser diferente y estará determinado por el tipo de dato asociado en la construcción del identificador. Adicionalmente, cada caja tiene asociada una dirección de memoria dentro del equipo donde se ejecuta, estas son posiciones temporales y cada vez que se ejecute este proceso las cajas asumirán posiciones de memoria diferentes.
 
