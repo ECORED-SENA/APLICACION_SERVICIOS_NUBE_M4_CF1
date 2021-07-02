@@ -115,9 +115,19 @@
 
     p.mt-4 #[strong Este concepto se puede comprender de mejor manera, a través del siguiente ejemplo:]
 
-    figure.mt-5
-    .video
-      iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+    .tarjeta.text-white.p-5.mt-4(style="background: linear-gradient(rgb(83 209 226), rgb(17 30 97));")
+      .row.justify-content-around.align-items-center
+        .col-3.col-sm-2.col-lg-1
+          img(src="@/assets/curso/pdf.svg")
+        .col
+          .row.justify-content-between.align-items-center
+            .col.mb-3.mb-sm-0
+              .h5.mb-0 Modularidad
+              p La modularidad es la propiedad que permite dividiruna aplicación o sistema en partes más pequeñas,idealmente deben ser muy independientes (bajoacoplamiento) y altamente funcionales (alta cohesión).
+            .col-sm-auto
+              a.boton.boton--b.color-acento-botones(:href="obtenerLink('downloads/Infografia moduralidad.pdf')" target="_blank")
+                span(style="color: initial !important;") Ver infografía
+                i.fas.fa-file-download(style="color: initial !important;")
 
     br
     #t_1_4.titulo-segundo.mt-5
