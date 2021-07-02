@@ -94,27 +94,6 @@
     #t_1_3.titulo-segundo.mt-5
       h2 1.3 Modularidad
 
-    p La modularidad es la propiedad que permite dividir una aplicación o sistema en partes más pequeñas, idealmente deben ser muy independientes (bajo acoplamiento) y altamente funcionales (alta cohesión) (Aguilar, 2021).
-
-    .col-md-8.mt-5.m-auto
-      p.mb-3(style="border-left:4px #4DD0E1 solid;padding-left:1rem") La modularidad empaqueta las abstracciones en unidades discretas.
-      figure
-        img(src="@/assets/curso/tema1/4.svg")
-        figcaption  Booch  et al. (2007).
-
-    p.mt-5 Dividir un sistema en partes más pequeñas como lo representa la figura anterior, tiene varios beneficios entre los cuales se pueden listar:
-
-    .p-4.mt-4(style="background-color:#F3F9FF")
-      ul.lista-ul
-        li 
-          i.fas.fa-check
-          | Se reduce la complejidad. Los problemas más pequeños son más fáciles de resolver que los problemas grandes.
-        li 
-          i.fas.fa-check
-          | Cada módulo puede ser ejecutado y probado de forma independiente, lo cual facilita la corrección de errores y permite que un problema pueda ser desarrollado por varias personas en forma paralela.
-
-    p.mt-4 #[strong Este concepto se puede comprender de mejor manera, a través del siguiente ejemplo:]
-
     .tarjeta.text-white.p-5.mt-4(style="background: linear-gradient(rgb(83 209 226), rgb(17 30 97));")
       .row.justify-content-around.align-items-center
         .col-3.col-sm-2.col-lg-1
