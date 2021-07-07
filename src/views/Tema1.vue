@@ -102,7 +102,7 @@
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
               .h5.mb-0 Modularidad
-              p La modularidad es la propiedad que permite dividiruna aplicación o sistema en partes más pequeñas,idealmente deben ser muy independientes (bajoacoplamiento) y altamente funcionales (alta cohesión).
+              p La modularidad es la propiedad que permite dividir una aplicación o sistema en partes más pequeñas, idealmente deben ser muy independientes (bajoa coplamiento) y altamente funcionales (alta cohesión).
             .col-sm-auto
               a.boton.boton--b.color-acento-botones(:href="obtenerLink('downloads/Infografia moduralidad.pdf')" target="_blank")
                 span(style="color: initial !important;") Ver infografía
